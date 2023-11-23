@@ -59,61 +59,72 @@ Maintenant, vous êtes prêt à commencer votre parcours d'autoformation Laravel
 
 ## Chapitres
 
-### Introduction à Laravel
+# Laravel Documentation Overview
 
-### Structure des dossiers
+This repository covers various aspects of Laravel development. Each section is linked to the relevant Laravel documentation for in-depth information.
 
-### Le Routing
+## Eloquent: Accessors and Mutators
 
-### L'ORM Eloquent
+Learn about [Eloquent Accessors and Mutators](https://laravel.com/docs/eloquent-mutators) in the Laravel documentation.
 
-### Les Controllers
+## Eloquent: Seed and Factory
 
-### Moteur de template Blade
+Understand how to use [Eloquent Seed and Factory](https://laravel.com/docs/seeding) in Laravel for efficient database seeding.
 
-### Valider les données
+## Front-end with Vite
 
-### Model binding
+Explore the integration of [Vite](https://laravel-mix.com/docs/6.0/vite) for front-end development in Laravel.
 
-### Debugbar et IDE Helper
+## Blade Components
 
-### Les formulaires
+Master the use of [Blade Components](https://laravel.com/docs/blade) for efficient and reusable view components.
 
-### Les Relation
+## Laravel Breeze
 
-### Authentification
+Get started with [Laravel Breeze](https://laravel.com/docs/breeze) for a minimal and elegant authentication scaffolding.
 
-### Système de fichiers
+## Policies
 
-### Eloquent : Accesseurs et mutateurs
+Learn about [Policies](https://laravel.com/docs/authorization) in Laravel for handling authorization logic.
 
-### Eloquent : Seed et Factory
+## Service Provider
 
-### Front-end avec Vite
+Understand the role of a [Service Provider](https://laravel.com/docs/providers) in Laravel application bootstrapping.
 
-### Les composants blade
+## Events
 
-### Laravel Breeze
+Explore the usage of [Events](https://laravel.com/docs/events) to handle various actions in your Laravel application.
 
-### Les Policy
+## Notifications
 
-### Le service provider
+Implement [Notifications](https://laravel.com/docs/notifications) to send notifications across different channels.
 
-### Les évènements
+## Internationalization
 
-### Notifications
+Manage translations and [Internationalization](https://laravel.com/docs/localization) in Laravel applications.
 
-### Internationalisation
+## Queues
 
-### Les files d'attentes
+Learn about [Queues](https://laravel.com/docs/queues) and how to handle background tasks efficiently.
 
-### API Resource
+## API Resource
 
-### Tester avec Laravel
+Create and manage [API Resources](https://laravel.com/docs/8.x/eloquent-resources) for building powerful APIs.
 
-### Hébergement et déploiement
+## Testing with Laravel
 
-### Héberger sur un mutualisé via SSH (Infomaniak)
+Explore the testing capabilities of Laravel using [Testing](https://laravel.com/docs/testing) documentation.
+
+## Hosting and Deployment
+
+Understand the process of [Hosting and Deployment](https://laravel.com/docs/deployment) for Laravel applications.
+
+## Shared Hosting via SSH (Infomaniak)
+
+Learn how to deploy Laravel applications on shared hosting with SSH, using [Infomaniak](https://www.infomaniak.com/).
+
+Feel free to explore each chapter for detailed information and examples!
+
 
 ## Ressources 
 
