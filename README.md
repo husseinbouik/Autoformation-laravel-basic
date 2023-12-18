@@ -57,77 +57,64 @@ Pour créer un nouveau projet Laravel, suivez les étapes ci-dessous :
     ```
 Maintenant, vous êtes prêt à commencer votre parcours d'autoformation Laravel !
 
-## Chapitres
+## Introduction à Laravel
 
-### Vue d'ensemble de la documentation Laravel
+Bienvenue dans la documentation Laravel, un guide complet couvrant divers aspects du développement avec le framework Laravel. Explorez chaque section pour obtenir des informations approfondies sur les fonctionnalités clés.
 
-Ce référentiel couvre différents aspects du développement Laravel. Chaque section est liée à la documentation Laravel pertinente pour des informations approfondies.
+## Structure des dossiers
 
-### Eloquent: Accesseurs et Mutateurs
+Plongez dans la [structure des dossiers](https://laravel.com/docs/structure) de Laravel pour comprendre l'organisation optimale de vos fichiers et dossiers dans une application Laravel.
 
-Découvrez les [accesseurs et mutateurs Eloquent](https://laravel.com/docs/eloquent-mutators) dans la documentation Laravel.
+## Le Routing
 
-### Eloquent: Seed and Factory
+Découvrez les tenants et aboutissants du [Routing dans Laravel](https://laravel.com/docs/routing) pour définir les points d'entrée de votre application et gérer les requêtes HTTP.
 
-Comprenez comment utiliser [Eloquent Seed and Factory](https://laravel.com/docs/seeding) dans Laravel pour un remplissage efficace de la base de données.
+## L'ORM Eloquent
 
-### Front-end avec Vite
+Explorez les [accesseurs et mutateurs Eloquent](https://laravel.com/docs/eloquent-mutators) ainsi que l'utilisation des [Seeders et Factories](https://laravel.com/docs/seeding) pour optimiser le remplissage de votre base de données.
 
-Explorez l'intégration de [Vite](https://laravel-mix.com/docs/6.0/vite) pour le développement front-end dans Laravel.
+## Les Controllers
 
-### Composants Blade
+Maîtrisez l'art de créer et d'utiliser des [Controllers](https://laravel.com/docs/controllers) pour gérer la logique métier de votre application de manière structurée.
 
-Maîtrisez l'utilisation des [composants Blade](https://laravel.com/docs/blade) pour des composants de vue efficaces et réutilisables.
+## Moteur de template Blade
 
-### Laravel Breeze
+Utilisez efficacement les [composants Blade](https://laravel.com/docs/blade) pour construire des vues réutilisables et bien organisées dans votre application.
 
-Commencez avec [Laravel Breeze](https://laravel.com/docs/breeze) pour une structure d'authentification minimale et élégante.
+## Valider les données
 
-### Politiques
+Apprenez à [valider les données](https://laravel.com/docs/validation) dans Laravel pour assurer l'intégrité des informations soumises par les utilisateurs.
 
-Apprenez sur les [politiques](https://laravel.com/docs/authorization) dans Laravel pour gérer la logique d'autorisation.
+## Model binding
 
-### Fournisseur de services
+Explorez le [model binding](https://laravel.com/docs/routing#route-model-binding) pour simplifier l'interaction avec vos modèles dans les routes de votre application.
 
-Comprenez le rôle d'un [fournisseur de services](https://laravel.com/docs/providers) dans l'amorçage d'une application Laravel.
+## Debugbar et IDE Helper
 
-### Événements
+Optimisez votre processus de développement avec des outils tels que [Debugbar](https://laravel.com/docs/8.x/telescope) et [IDE Helper](https://github.com/barryvdh/laravel-ide-helper).
 
-Explorez l'utilisation des [événements](https://laravel.com/docs/events) pour gérer différentes actions dans votre application Laravel.
+## Les formulaires
 
-### Notifications
+Découvrez comment créer et traiter des [formulaires dans Laravel](https://laravel.com/docs/8.x/eloquent-resources) pour interagir avec les utilisateurs de manière efficace.
 
-Implémentez les [notifications](https://laravel.com/docs/notifications) pour envoyer des notifications sur différents canaux.
+## Les Relations
 
-### Internationalisation
+Explorez les différents types de [relations entre les modèles](https://laravel.com/docs/eloquent-relationships) dans Eloquent pour structurer efficacement votre base de données.
 
-Gérez les traductions et l'[internationalisation](https://laravel.com/docs/localization) dans les applications Laravel.
+## Authentification
 
-### Files d'attente
+Commencez avec [Laravel Breeze](https://laravel.com/docs/breeze) pour mettre en place un système d'authentification minimal et élégant dans votre application.
 
-Apprenez sur les [files d'attente](https://laravel.com/docs/queues) et comment gérer efficacement les tâches en arrière-plan.
+## Système de fichiers
 
-### Ressources API
-
-Créez et gérez les [ressources API](https://laravel.com/docs/8.x/eloquent-resources) pour construire des API puissantes.
-
-### Tests avec Laravel
-
-Explorez les capacités de test de Laravel grâce à la documentation sur les [tests](https://laravel.com/docs/testing).
-
-### Hébergement et Déploiement
-
-Comprenez le processus de [hébergement et déploiement](https://laravel.com/docs/deployment) pour les applications Laravel.
-
-### Hébergement partagé via SSH (Infomaniak)
-
-Apprenez à déployer des applications Laravel sur un hébergement partagé avec SSH en utilisant [Infomaniak](https://www.infomaniak.com/).
+Apprenez à manipuler le [système de fichiers](https://laravel.com/docs/filesystem) dans Laravel pour gérer les fichiers et les images de manière sécurisée.
 
 N'hésitez pas à explorer chaque chapitre pour des informations détaillées et des exemples !
 
 ## Ressources supplémentaires
 
 - [Laracasts](https://laracasts.com/series/laravel-8-from-scratch) : Une excellente ressource pour les screencasts et tutoriels vidéo Laravel.
+- [ GRAFIKART Laravel 10 à](https://grafikart.fr/formations/laravel) : Découverte de Laravel 10 à Grafikart
 - [Laravel News](https://laravel-news.com/) : Restez informé des dernières actualités, tutoriels et packages Laravel.
 - [Laravel Podcast](https://www.laravelpodcast.com/) : Écoutez des discussions sur des sujets liés à Laravel.
 - [Playlist Laravel](https://youtube.com/playlist?list=PLe30vg_FG4OTxKekbWLABcpstdeCDA4LQ&si=qwpSjOJUbgHR-Goa) : playlist Laravel
