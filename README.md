@@ -114,7 +114,7 @@ N'hésitez pas à explorer chaque chapitre pour des informations détaillées et
 ## Ressources supplémentaires
 
 - [Laracasts](https://laracasts.com/series/laravel-8-from-scratch) : Une excellente ressource pour les screencasts et tutoriels vidéo Laravel.
-- [ GRAFIKART Laravel 10 à](https://grafikart.fr/formations/laravel) : Découverte de Laravel 10 à Grafikart
+- [ GRAFIKART Laravel 10 ](https://grafikart.fr/formations/laravel) : Découverte de Laravel 10 à Grafikart
 - [Laravel News](https://laravel-news.com/) : Restez informé des dernières actualités, tutoriels et packages Laravel.
 - [Laravel Podcast](https://www.laravelpodcast.com/) : Écoutez des discussions sur des sujets liés à Laravel.
 - [Playlist Laravel](https://youtube.com/playlist?list=PLe30vg_FG4OTxKekbWLABcpstdeCDA4LQ&si=qwpSjOJUbgHR-Goa) : playlist Laravel
