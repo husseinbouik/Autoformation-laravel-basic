@@ -8,21 +8,7 @@
     @foreach($posts as $post)
  
         <h2>{{$post->title}}</h2>
-        
-    <p class="small">
-        @if ($post->category)
-        Category : <strong>{{$post->category?->name}}</strong>
-        @if (!$post->tags->isEmpty())
-        @endif
-        @endif
-        @if (!$post->tags->isEmpty())
-        
-        Tags:
-            @foreach ($post->tags as $tag)
-                <span class="badge bg-secondary">{{$tag->name}}</span>
-            @endforeach
-            @endif
-    </p>
+
 <p>
       {{$post->content}}
 </p>
@@ -48,7 +34,7 @@
 @else
     <p>No posts found.</p>
 @endif --}}
-    {{-- @dump(['hussein is supercalifragilisticexpialidocious']) --}}
+    @dump(['hussein is supercalifragilisticexpialidocious'])
 {{-- write PHP code directly within your Blade views --}}
 @php
     $demo = 'HUSSS';

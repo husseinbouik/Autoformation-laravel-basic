@@ -46,7 +46,7 @@ Route::get('/', function () {
 
 // $post = \App\Models\Post::create([
 //     'title'=> 'al 3a9l al mouodabir',
-//     'slug'=> 'blabla4',
+//     'slug'=> 'boom tam tam ',
 //     'content'=>'superfragilisticexpialidocious'
 // ]);
 
@@ -84,11 +84,6 @@ Route::get('/', function () {
 // });
 
 Route :: prefix('/blog')->name('blog.')->controller(Blogcontroller::class)->group (function () {
-      $post = new \App\Models\Post();
-    $post->title = 'le3a9l-al-moudabir';
-    $post->slug = 'blabla';
-    $post->content = 'Superfragilisticexpialidocious';
-    $post->save();
 Route::get('/', 'index')->name('index');
 Route::get('/new','create')->name('create');
 Route::post('/new','store');
