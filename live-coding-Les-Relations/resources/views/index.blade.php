@@ -15,6 +15,13 @@
             <option value="{{ $category->id }}">{{ $category->name }}</option>
         @endforeach
     </select>
+    <label for="category">Filter by Tag:</label>
+    <select id="category">
+        <option value="">All</option>
+        @foreach ($tags as $tag)
+            <option value="{{ $tag->id }}">{{ $tag->name }}</option>
+        @endforeach
+    </select>
     <button onclick="filterPosts()">Filter</button>
 
     <table>
@@ -22,6 +29,7 @@
             <tr>
                 <th>Id</th>
                 <th>Name</th>
+                <th>Tag</th>
             </tr>
         </thead>
         <tbody>
@@ -29,7 +37,12 @@
                 <tr>
                     <td>{{ $post->id }}</td>   
                     <td>{{ $post->name }}</td>   
-                             </tr>
+                    <td>
+                        @foreach ($post->tags as $tag)
+                            {{ $tag->name }}
+                        @endforeach
+                    </td>
+                </tr>
             @endforeach
         </tbody>
     </table>
